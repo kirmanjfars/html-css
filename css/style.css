@@ -134,6 +134,7 @@ padding: 5px 10px;
     padding: 5px 10px 6px 10px;
     color: white;
     margin-left: -4px;
+    border: none;
     border-top-right-radius: 50px 50px;
     border-bottom-right-radius: 50px 50px;
 }
@@ -281,6 +282,15 @@ padding: 5px 10px;
 .childService{
     display: flex;
     flex-direction: column;
+}
+
+.fa-check-circle{
+    color: rgb(2, 184, 120);
+    font-size: 22px;
+}
+.fa-times-circle{
+    color: rgb(214, 71, 71); 
+    font-size: 22px;
 }
 
 
