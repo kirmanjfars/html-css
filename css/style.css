@@ -1,0 +1,290 @@
+*{
+    box-sizing: border-box; 
+    margin: 0%; 
+    padding: 0%;
+}
+
+
+
+.col1{
+    width: 20%;
+}
+
+.col2{
+    width: 40%;
+}
+.col3{
+    width: 60%;
+}
+.col4{
+    width: 80%;
+}
+.col5{
+    width: 100%;
+}
+
+
+#nav1{
+    background-color: black;
+    padding: 0px 20% 5px 20%;
+}
+
+
+#nav1 #navSocial a i{
+    color: white;
+    padding-right: 19px;
+    margin-top: 10px;
+    font-size: 10px;
+    padding-bottom: 5px;
+}
+
+
+#nav1 #navSocial a i:hover{
+    color: rgb(117, 115, 115);
+    padding-right: 19px;
+    margin-top: 10px;
+}
+
+.flexRight{
+    display: flex; 
+    flex-direction: row;
+}
+
+#navContact{
+    position: absolute;
+    right: 20%;
+    margin-top: 5px;
+}
+
+#navContact a{
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    word-spacing: 10px;
+}
+
+h2{
+    font-family: 'Kosugi Maru', sans-serif;
+    font-weight: 100;
+    opacity: 0.7;
+    word-spacing: 10px;
+}
+
+#nav2{
+    padding: 15px 20%
+}
+
+#navAnker{
+    position: absolute;
+    right: 20%;
+}
+
+#navAnker a{
+color: black;
+text-decoration: none;
+font-family: 'Kosugi Maru', sans-serif;
+margin-left: 25px;
+padding: 5px 10px;
+
+}
+
+#navAnker a:hover{
+    border: 1px solid #00A46B;
+    border-radius: 25px;
+}
+
+
+#computerContainer{
+    margin: 0% auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+
+#computerContainer img{
+    width: 500px; 
+    height: 300px;
+}
+
+#computerContainer p{
+    width: 70%;
+    margin: 0% auto;
+    margin-bottom: 20px;
+
+}
+
+#computer{
+    background-color: rgb(3, 139, 92);
+}
+
+
+
+#computer form input{
+    padding: 5px 10px;
+    border: none;
+    margin-right: 0px;
+    border-top-left-radius: 50px 50px;
+    border-bottom-left-radius: 50px 50px;
+}
+
+#label{
+    background-color:  rgb(2, 184, 120);
+    padding: 5px 10px 6px 10px;
+    color: white;
+    margin-left: -4px;
+    border-top-right-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;
+}
+
+
+#label:hover{
+    background-color:  rgba(2, 184, 120, 0.322);
+}
+
+
+#computer p:last-child{
+    color: white;
+    padding-top: 10px;
+}
+
+#community{
+    background-color: rgb(231, 223, 223);
+}
+
+#communityContainer{
+    margin: 0% auto;
+    text-align: center;
+    padding-bottom: 60px;
+
+}
+
+#communityContainer h1, #servicesContainer h1{
+    margin-top:0px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-weight: 100;
+    opacity: 0.7;
+}
+
+#chev{
+    display: flex; 
+    flex-direction: column;
+}
+#chev i{
+    font-size: 30px;
+    opacity: 0.7;
+    color: rgba(128, 128, 128, 0.438);
+}
+
+#signUp{
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.404); 
+    border-radius: 5px;
+}
+
+#signUpContnet{
+    padding-bottom: 40px;
+    margin-left: 20% ;
+
+}
+
+#signUpContnet i{
+    font-size: 50px; 
+    color: rgb(2, 184, 120);
+    padding-right: 15px;
+    padding-top: 20px;
+}
+
+#signUpContnet h2{
+       padding: 10px 5px; 
+}
+
+#signUpContnet ol{
+     width: 200px;
+     list-style-type: none;
+
+}
+
+#buttonSign{
+    margin: 0% auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    column-count: 3;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+
+.btsSign{
+    text-align: center;
+    margin: 3px 20px;
+}
+
+
+.btsSign button{
+     font-size: 24px;
+     border: 1px solid rgb(2, 184, 120) ;
+     background-color: white;
+     border-radius: 50%;
+     padding: 10px;
+     color: rgb(2, 184, 120) ;
+     margin-bottom: 5px;
+}
+
+.btsSign button:hover{
+    border: 1px solid rgb(2, 184, 120) ;
+    background-color: rgb(2, 184, 120);
+    color: white;
+  }
+
+
+  #servicesContainer{
+      text-align: center;
+  }
+
+  #s1{
+      background-color: rgb(2, 184, 120); 
+      padding: 10px 55px 10px 25px;
+      border: 1px solid rgba(128, 128, 128, 0.308);
+      margin-right: 0px;
+      border-top-left-radius: 50px 50px;
+      border-bottom-left-radius: 50px 50px;
+      color: white;
+  }
+
+  #s2{
+    background-color: rgb(11, 122, 83); 
+    border: 1px solid rgba(128, 128, 128, 0.308);
+    border-radius: 100%;
+    color: white;
+    z-index: 3;
+    position: absolute;
+    right: 50%;
+    padding: 3px 2px;
+    
+}
+
+#s3{
+    background-color: white; 
+    padding: 10px 15px 10px 40px;
+    border: 1px solid rgba(128, 128, 128, 0.308);
+    margin-right: 0px;
+    border-top-right-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;
+    color: black;
+    margin-left: -43px;
+}
+  
+.childService{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
